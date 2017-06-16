@@ -111,11 +111,11 @@ git diff
 ```
 git diff --base <filename>
 ```
-##### Preview changes, before merging:
+###### Preview changes, before merging:
 ```
 git diff <sourcebranch> <targetbranch>
 ```
-##### After you have manually resolved any conflicts, you mark the changed file:	
+###### After you have manually resolved any conflicts, you mark the changed file:	
 ```
 git add <filename>
 ```

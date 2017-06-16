@@ -32,11 +32,13 @@ git clone username@host:/path/to/repository
 
 ###### Add one or more files to staging (index)	
 
+```
 git add *filename*
-
 git add *
+```
 
 #### Branches
+
 ```
 git checkout -b branchname : Create a new branch and switch to it.
 git checkout branchname    : Switch from one branch to another.	 
@@ -49,10 +51,10 @@ Push all branches to your remote repository:
 git push --all origin
 Delete a branch on your remote repository:	
 git push origin :branchname
-
 ```
 
-### Update from the remote repository
+#### Update from the remote repository
+
 Fetch and merge changes on the remote server to your working directory:	git pull
 To merge a different branch into your active branch:	
 git merge <branchname>

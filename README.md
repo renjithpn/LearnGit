@@ -1,5 +1,5 @@
 ## LearnGit
-Learning git commands
+
 
 Tell Git who you are	Configure the author name and email address to be used with your commits.
 Note that Git strips some characters (for example trailing periods) from user.name.
@@ -21,7 +21,8 @@ git add <filename>
 
 git add *
 
-Branches	Create a new branch and switch to it:	
+Branches	
+Create a new branch and switch to it:	
 git checkout -b <branchname>
 Switch from one branch to another:	
 git checkout <branchname>

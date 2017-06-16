@@ -1,4 +1,4 @@
-# Git Commands
+# Basic Git Commands
 
 
 #### Initial Configuration
@@ -28,10 +28,15 @@ git clone username@host:/path/to/repository
 ```
 
 
-#### Add files	Add one or more files to staging (index)	
+#### Add files	
 
+###### Add one or more files to staging (index)	
 
-### Branches
+git add *filename*
+
+git add *
+
+#### Branches
 ```
 git checkout -b branchname : Create a new branch and switch to it.
 git checkout branchname    : Switch from one branch to another.	 

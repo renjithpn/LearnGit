@@ -1,4 +1,38 @@
-# Basic Git Commands
+### Summary of commands
+```
+git init
+git config --global user.name "Renjith Narayanan"
+git config --global user.email renjith2002@gmail.com
+git clone /path/to/repository
+git add <filename>
+git add *
+git commit -m "Commit message"
+git commit -a
+git push origin master
+git status
+
+git checkout -b branchname
+git checkout branchname
+git branch
+git branch -d branchname
+git push origin branchname
+git push --all origin
+git push origin :branchname
+
+git pull
+git merge <branchname>
+git diff
+git diff --base <filename>
+git diff <sourcebranch> <targetbranch>
+git add <filename>
+
+git checkout -- <filename>
+git fetch origin
+git reset --hard origin/master
+```
+
+
+### Basic Git Commands
 
 
 #### Initial Configuration

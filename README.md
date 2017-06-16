@@ -4,8 +4,8 @@
 #### Initial Configuration
 
 ```
-git config --global user.name "Sam Smith"
-git config --global user.email sam@example.com
+git config --global user.name "Renjith Narayanan"
+git config --global user.email renjith2002@gmail.com
 ```
 
 #### Create a new local repository
@@ -35,6 +35,31 @@ git clone username@host:/path/to/repository
 ```
 git add <filename>
 git add *
+```
+
+#### Commit	
+
+###### Commit changes to head (but not yet to the remote repository):	
+```
+git commit -m "Commit message"
+```
+###### Commit any files you've added with git add, and also commit any files you've changed since then:	
+```
+git commit -a
+```
+
+#### Push	
+
+###### Send changes to the master branch of your remote repository:
+```
+git push origin master
+```
+
+#### Status	
+
+###### List the files you've changed and those you still need to add or commit:	
+```
+git status
 ```
 
 #### Branches

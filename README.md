@@ -1,4 +1,4 @@
-### Summary of commands
+## Summary of commands
 ```
 git init
 git config --global user.name "Renjith Narayanan"
@@ -32,10 +32,10 @@ git reset --hard origin/master
 ```
 
 
-### Basic Git Commands
+## Basic Git Commands
 
 
-> #### Initial Configuration
+> ### Initial Configuration
 
   ```
   git config --global user.name "Renjith Narayanan"

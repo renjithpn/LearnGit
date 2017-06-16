@@ -165,3 +165,8 @@ git checkout -- <filename>
 git fetch origin
 git reset --hard origin/master
 ```
+#### Search
+###### Search the working directory for foo():	
+```
+git grep "foo()"
+```

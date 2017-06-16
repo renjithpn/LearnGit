@@ -50,12 +50,12 @@ git init
 
 > #### Check out a repository
 
-###### 1. <p> Create a working copy of a local repository :</p>
+###### Create a working copy of a local repository :
 
 ```
 git clone /path/to/repository
 ```
-###### 2. For a remote server, use :
+###### For a remote server, use :
 
 ```
 git clone username@host:/path/to/repository
@@ -71,7 +71,7 @@ git add <filename>
 git add *
 ```
 
-#### Commit	
+> #### Commit	
 
 ###### Commit changes to head (but not yet to the remote repository):	
 ```
@@ -82,21 +82,21 @@ git commit -m "Commit message"
 git commit -a
 ```
 
-#### Push	
+> #### Push	
 
 ###### Send changes to the master branch of your remote repository:
 ```
 git push origin master
 ```
 
-#### Status	
+> #### Status	
 
 ###### List the files you've changed and those you still need to add or commit:	
 ```
 git status
 ```
 
-#### Branches
+> #### Branches
 
 ###### Create a new branch and switch to it.
 ```
@@ -127,7 +127,7 @@ git push --all origin
 git push origin :branchname
 ```
 
-#### Update from the remote repository
+> #### Update from the remote repository
 
 ###### Fetch and merge changes on the remote server to your working directory:
 ```
@@ -154,7 +154,7 @@ git diff <sourcebranch> <targetbranch>
 git add <filename>
 ```
 
-#### Undo local changes	
+> #### Undo local changes	
 
 ###### If you mess up, you can replace the changes in your working tree with the last content in head: Changes already added to the index, as well as new files, will be kept.
 ```
@@ -165,7 +165,7 @@ git checkout -- <filename>
 git fetch origin
 git reset --hard origin/master
 ```
-#### Search
+> #### Search
 ###### Search the working directory for foo():	
 ```
 git grep "foo()"

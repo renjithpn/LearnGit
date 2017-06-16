@@ -3,22 +3,40 @@
 
 #### Initial Configuration
 
+```
 git config --global user.name "Sam Smith"
 git config --global user.email sam@example.com
 
-#### Create a new local repository	 	
+```
+
+#### Create a new local repository
+
+```
 git init
 
-#### Check out a repository	Create a working copy of a local repository	
+```
+
+#### Check out a repository
+
+Create a working copy of a local repository
+
+```
 git clone /path/to/repository
-For a remote server, use:	
+
+```
+For a remote server, use:
+
+```
 git clone username@host:/path/to/repository
+
+```
 
 
 #### Add files	Add one or more files to staging (index)	
 
 
 ### Branches
+```
 git checkout -b branchname : Create a new branch and switch to it.
 git checkout branchname    : Switch from one branch to another.	 
 git branch  : List all the branches in your repo, and also tell you what branch you're currently in.
@@ -31,7 +49,7 @@ git push --all origin
 Delete a branch on your remote repository:	
 git push origin :branchname
 
-
+```
 
 ### Update from the remote repository
 Fetch and merge changes on the remote server to your working directory:	git pull

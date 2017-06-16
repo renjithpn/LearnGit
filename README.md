@@ -19,21 +19,22 @@ git clone username@host:/path/to/repository
 
 
 ### Branches
-git checkout -b <branchname> : Create a new branch and switch to it.
-git checkout <branchname>    : Switch from one branch to another.	 
+git checkout -b branchname : Create a new branch and switch to it.
+git checkout branchname    : Switch from one branch to another.	 
 git branch  : List all the branches in your repo, and also tell you what branch you're currently in.
 	
-git branch -d <branchname>   : Delete the feature branch.
+git branch -d branchname   : Delete the feature branch.
 
-git push origin <branchname> : Push the branch to your remote repository, so others can use it.
+git push origin branchname : Push the branch to your remote repository, so others can use it.
 Push all branches to your remote repository:	
 git push --all origin
 Delete a branch on your remote repository:	
-git push origin :<branchname>
+git push origin :branchname
 
 
 
-Update from the remote repository	Fetch and merge changes on the remote server to your working directory:	git pull
+### Update from the remote repository
+Fetch and merge changes on the remote server to your working directory:	git pull
 To merge a different branch into your active branch:	
 git merge <branchname>
 View all the merge conflicts:

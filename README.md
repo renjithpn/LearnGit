@@ -37,10 +37,10 @@ git reset --hard origin/master
 
 #### Initial Configuration
 
-```
-git config --global user.name "Renjith Narayanan"
-git config --global user.email renjith2002@gmail.com
-```
+  ```
+  git config --global user.name "Renjith Narayanan"
+  git config --global user.email renjith2002@gmail.com
+  ```
 
 #### Create a new local repository
 
@@ -50,7 +50,7 @@ git init
 
 #### Check out a repository
 
-###### Create a working copy of a local repository :
+> Create a working copy of a local repository :
 
 ```
 git clone /path/to/repository

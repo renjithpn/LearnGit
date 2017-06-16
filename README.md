@@ -50,7 +50,7 @@ git init
 
 > #### Check out a repository
 
-###### 1. Create a working copy of a local repository :
+###### 1. <p> Create a working copy of a local repository :</p>
 
 ```
 git clone /path/to/repository

@@ -33,23 +33,38 @@ git clone username@host:/path/to/repository
 ###### Add one or more files to staging (index)	: 
 
 ```
-git add *filename*
+git add <filename>
 git add *
 ```
 
 #### Branches
 
+Create a new branch and switch to it.
 ```
-git checkout -b branchname : Create a new branch and switch to it.
-git checkout branchname    : Switch from one branch to another.	 
-git branch  : List all the branches in your repo, and also tell you what branch you're currently in.
-	
-git branch -d branchname   : Delete the feature branch.
-
-git push origin branchname : Push the branch to your remote repository, so others can use it.
-Push all branches to your remote repository:	
+git checkout -b branchname 
+```
+Switch from one branch to another.
+```
+git checkout branchname
+```
+List all the branches in your repo, and also tell you what branch you're currently in.
+```
+git branch
+```
+Delete the feature branch
+```
+git branch -d branchname
+```
+Push the branch to your remote repository, so others can use it.
+```
+git push origin branchname
+```
+Push all branches to your remote repository.
+```
 git push --all origin
-Delete a branch on your remote repository:	
+```
+Delete a branch on your remote repository.
+```
 git push origin :branchname
 ```
 

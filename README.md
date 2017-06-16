@@ -16,12 +16,12 @@ git init
 
 #### Check out a repository
 
-###### Create a working copy of a local repository
+###### Create a working copy of a local repository :
 
 ```
 git clone /path/to/repository
 ```
-###### For a remote server, use:
+###### For a remote server, use :
 
 ```
 git clone username@host:/path/to/repository
@@ -30,7 +30,7 @@ git clone username@host:/path/to/repository
 
 #### Add files	
 
-###### Add one or more files to staging (index)	
+###### Add one or more files to staging (index)	: 
 
 ```
 git add *filename*

@@ -1,26 +1,24 @@
 # Git Commands
 
 
-## Initial Configuration
+#### Initial Configuration
 
 git config --global user.name "Sam Smith"
 git config --global user.email sam@example.com
 
-## Create a new local repository	 	
+#### Create a new local repository	 	
 git init
 
-## Check out a repository	Create a working copy of a local repository:	
+#### Check out a repository	Create a working copy of a local repository	
 git clone /path/to/repository
 For a remote server, use:	
 git clone username@host:/path/to/repository
 
 
-## Add files	Add one or more files to staging (index):	
-git add <filename>
+#### Add files	Add one or more files to staging (index)	
 
-git add *
 
-## Branches
+### Branches
 git checkout -b <branchname> : Create a new branch and switch to it.
 git checkout <branchname>    : Switch from one branch to another.	 
 git branch  : List all the branches in your repo, and also tell you what branch you're currently in.

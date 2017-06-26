@@ -62,36 +62,36 @@ git clone username@host:/path/to/repository
 ```
 
 
-> ### Add files	
+> ### Add files
 
-###### Add one or more files to staging (index)	: 
+###### Add one or more files to staging (index)	:
 
 ```
 git add <filename>
 git add *
 ```
 
-> ### Commit	
+> ### Commit
 
-###### Commit changes to head (but not yet to the remote repository):	
+###### Commit changes to head (but not yet to the remote repository):
 ```
 git commit -m "Commit message"
 ```
-###### Commit any files you've added with git add, and also commit any files you've changed since then:	
+###### Commit any files you've added with git add, and also commit any files you've changed since then:
 ```
 git commit -a
 ```
 
-> ### Push	
+> ### Push
 
 ###### Send changes to the master branch of your remote repository:
 ```
 git push origin master
 ```
 
-> ### Status	
+> ### Status
 
-###### List the files you've changed and those you still need to add or commit:	
+###### List the files you've changed and those you still need to add or commit:
 ```
 git status
 ```
@@ -100,7 +100,7 @@ git status
 
 ###### Create a new branch and switch to it.
 ```
-git checkout -b branchname 
+git checkout -b branchname
 ```
 ###### Switch from one branch to another.
 ```
@@ -133,7 +133,7 @@ git push origin :branchname
 ```
 git pull
 ```
-###### To merge a different branch into your active branch:	
+###### To merge a different branch into your active branch:
 ```
 git merge <branchname>
 ```
@@ -149,24 +149,30 @@ git diff --base <filename>
 ```
 git diff <sourcebranch> <targetbranch>
 ```
-###### After you have manually resolved any conflicts, you mark the changed file:	
+###### After you have manually resolved any conflicts, you mark the changed file:
 ```
 git add <filename>
 ```
 
-> ### Undo local changes	
+> ### Undo local changes
 
 ###### If you mess up, you can replace the changes in your working tree with the last content in head: Changes already added to the index, as well as new files, will be kept.
 ```
 git checkout -- <filename>
 ```
-###### Instead, to drop all your local changes and commits, fetch the latest history from the server and point your local master branch at it, do this:	
+###### Instead, to drop all your local changes and commits, fetch the latest history from the server and point your local master branch at it, do this:
 ```
 git fetch origin
 git reset --hard origin/master
 ```
+> ### Revert Commit
+###### Rever the last commit:
+```
+git reset HEAD~
+```
+
 > ### Search
-###### Search the working directory for foo():	
+###### Search the working directory for foo():
 ```
 git grep "foo()"
 ```

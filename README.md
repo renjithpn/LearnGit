@@ -166,7 +166,7 @@ git fetch origin
 git reset --hard origin/master
 ```
 > ### Revert Commit
-###### Rever the last commit:
+###### Revert the last commit:
 ```
 git reset HEAD~
 ```
@@ -176,6 +176,3 @@ git reset HEAD~
 ```
 git grep "foo()"
 ```
-
-this is wrong
-this is wrong 1
